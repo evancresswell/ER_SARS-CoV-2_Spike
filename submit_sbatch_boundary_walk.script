@@ -1,0 +1,6 @@
+#!/bin/bash
+sbatch --mem=400g --time=1-00:00:00 --partition=largemem --cpus-per-task=60 generate_c14_boundary_walk.script
+sbatch --mem=400g --time=1-00:00:00 --partition=largemem --cpus-per-task=60 generate_c13_boundary_walk.script
+sbatch --mem=400g --time=1-00:00:00 --partition=largemem --cpus-per-task=60 generate_c11_boundary_walk.script
+
+

@@ -1,0 +1,5 @@
+#!/bin/bash
+sbatch --mem=400g --time=1-00:00:00 --partition=largemem --cpus-per-task=60 generate_omicron_msa.script
+sbatch --mem=400g --time=1-00:00:00 --partition=largemem --cpus-per-task=60 generate_delta_msa.script
+
+

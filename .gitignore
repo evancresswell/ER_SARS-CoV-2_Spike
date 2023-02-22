@@ -1,0 +1,16 @@
+*.npy
+*.out
+cov_fasta_files_swarm_out/
+cov_fasta_files_swarm_out/*
+*.swarm
+fasta_files/
+fasta_files/*
+*.pkl
+*.pickle
+*.pyc
+*.txt
+*.pdf
+*.fasta
+*.fa
+*.sh
+.ipynb_checkpoints/

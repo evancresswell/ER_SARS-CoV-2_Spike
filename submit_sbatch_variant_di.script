@@ -1,0 +1,13 @@
+#!/bin/bash
+sbatch --mem=1500g --time=2-00:00:00 --partition=largemem --cpus-per-task=60 generate_delta_di.script
+sbatch --mem=400g --time=1-00:00:00 --partition=largemem --cpus-per-task=40 generate_epsilon_di.script
+sbatch --mem=400g --time=1-00:00:00 --partition=largemem --cpus-per-task=40 generate_eta_di.script
+sbatch --mem=400g --time=1-00:00:00 --partition=largemem --cpus-per-task=40 generate_iota_di.script
+sbatch --mem=400g --time=1-00:00:00 --partition=largemem --cpus-per-task=40 generate_alpha_di.script
+sbatch --mem=400g --time=1-00:00:00 --partition=largemem --cpus-per-task=40 generate_beta_di.script
+sbatch --mem=400g --time=1-00:00:00 --partition=largemem --cpus-per-task=40 generate_zeta_di.script
+sbatch --mem=400g --time=1-00:00:00 --partition=largemem --cpus-per-task=40 generate_gamma_di.script
+sbatch --mem=400g --time=1-00:00:00 --partition=largemem --cpus-per-task=40 generate_kappa_di.script
+sbatch --mem=1500g --time=2-00:00:00 --partition=largemem --cpus-per-task=60 generate_omicron_di.script
+
+

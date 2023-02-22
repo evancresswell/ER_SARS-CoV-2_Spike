@@ -1,0 +1,2 @@
+#!/bin/bash
+sbatch --mem=1500g --time=1-00:00:00 --partition=largemem --cpus-per-task=60 muscle_align_spikeprot.sh

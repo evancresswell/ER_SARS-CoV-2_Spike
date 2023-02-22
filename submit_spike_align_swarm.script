@@ -1,0 +1,3 @@
+#!/bin/bash
+
+swarm -f cov_spike_align.swarm -g 20 -t 20 --time=12:00 --partition quick  -b 5 --module mafft --logdir cov_fasta_files_swarm_out #  quick # normS

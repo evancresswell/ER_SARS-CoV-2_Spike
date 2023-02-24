@@ -1,12 +1,12 @@
-# ----------------------------------------- Data Information ------------------------------------------------------------- #
+# Data Information 
 This gives the data files and associated description files 
 
 
-	- METHOD_for_generating_allprot_spikeprot.txt 	-- This file is from GISAID, descripes how the got the sequences
-	- FASTA_header_format_for_allprot_spikeprot.txt -- This file is from GISAID, describes FASTA header format of sequences
+	* METHOD_for_generating_allprot_spikeprot.txt 	-- This file is from GISAID, descripes how the got the sequences
+	* FASTA_header_format_for_allprot_spikeprot.txt -- This file is from GISAID, describes FASTA header format of sequences
 
 
-# ----------------------------------------- Data Pipeline ---------------------------------------------------------------- #
+#  Data Pipeline
 ** This outlines the process of going from raw data to processed variant MSAs
 	* posiiton columns are consistent across the different variant MSAs	
 ** Each enumerated item is the command to be run 

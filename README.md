@@ -49,7 +49,7 @@ This gives the data files and associated description files
 	- creates dictionary of dataframes for each variant 
 		- variant_dfs.pickle
 
-5. 00 ./submit_sbatch_variant_data-processing.script
+5. -- ./submit_sbatch_variant_data-processing.script
 	- processes variant MSAs 
 	- reference sequence array is HARDCODED in script (cov_variant_data-processing.py)
 	- files used:

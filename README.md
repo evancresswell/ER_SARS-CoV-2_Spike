@@ -60,11 +60,11 @@ This gives the data files and associated description files
 		- <variant name>_unique_index.npy		-- Indices of unique sequence set in full MSA
 	- processes variant sequence data using gap cols/seq of .2 conserved cols of .95
 	- creates processed data files for each variant
-		- <varian_name>_processed_s0.np			-- unique data processed (dp) MSA numpy array no cols removed
-		- <varian_name>_processed_sindex.npy 		-- index of non-conserved columns
-		- <varian_name>_processed_ipdb.npy 		-- index of reference sequence in MSA numpy array
-		- <varian_name>_processed_cols_removed.npy	-- index of bad columns in MSA numpy array
-		- <varian_name>_processed_seqs_removed.npy 	-- index of bad sequences which were removed
+		- <variant name>_processed_s0.np			-- unique data processed (dp) MSA numpy array no cols removed
+		- <variant name>_processed_sindex.npy 		-- index of non-conserved columns
+		- <variant name>_processed_ipdb.npy 		-- index of reference sequence in MSA numpy array
+		- <variant name>_processed_cols_removed.npy	-- index of bad columns in MSA numpy array
+		- <variant name>_processed_seqs_removed.npy 	-- index of bad sequences which were removed
 	- creates dictionary of variant processed data 
 		- spike_s0_data.pickle 				-- dp MSA numpy array interseciton of all (variant) bad cools removed 
 		- spike_index_data.pickle 			-- index array with interseciton of all (variant) bad cools removed 
